@@ -10,6 +10,7 @@ import Recipe from "../../img/recipe.png";
 import Travel from "../../img/space_travler.png";
 import Budget from "../../img/budget_app.png";
 import Crypto from "../../img/cripto_app.png";
+import Career from "../../img/career.png"
 import 'swiper/css'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -31,6 +32,18 @@ const Portfolio = () => {
         grabCursor={true}
         className='portfolio-slider'
         >
+            <SwiperSlide>
+                <a href='https://docs.google.com/presentation/d/1Xt73vp2gMEgImQvX-7eD_yfUApHdhMEJHIwmxxanD28/edit?usp=sharing' target='_blank'>
+                    <img src={Career} alt="" />
+                </a>
+                <h3 className='port-discription' style={dark}>Career Boost Slide</h3>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a href='https://youtu.be/lCMp--FE5Fc' target='_blank'>
+                    <img src={Career} alt="" />
+                </a>
+                <h3 className='port-discription' style={dark}>Career Boost Video</h3>
+            </SwiperSlide>
             <SwiperSlide>
                 <a href='https://davidespinog.github.io/capstone_project_2_API/' target='_blank'>
                     <img src={MoviesApp} alt="" />
@@ -86,6 +99,20 @@ const Portfolio = () => {
                 <h3 className='port-discription' style={dark}>Meme Generator</h3>
             </SwiperSlide>
         </Swiper>
+        <br />
+        <div className="i-left" id="Elevator">
+            <div className="i-name">
+                <span style={{color : darkMode ? 'white' : ''}}></span>
+                <span>Elevator pitch</span>
+                <p style={{color : darkMode ? '#aaaaaa' : '', fontSize: '0.8rem'}}>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nam enim maxime esse repudiandae doloribus at nihil architecto asperiores dolorum harum nisi accusamus saepe quas, expedita illo atque debitis corporis facilis sequi corrupti laudantium? Repellendus neque eligendi harum ullam, beatae quia molestiae inventore sint aut dolorum, vero distinctio quos amet animi cumque veritatis delectus laborum consequatur excepturi officia, obcaecati modi exercitationem nam. Eveniet quisquam nemo voluptates accusantium necessitatibus eius accusamus quos, vero, facere quibusdam saepe, minus hic asperiores assumenda. Ipsum tempore officia, facere reiciendis dolore mollitia voluptate quaerat at officiis, iure laboriosam voluptatem non ipsa. Aperiam quos quod non ratione aspernatur recusandae nihil debitis laboriosam. In molestias optio minus.
+                </p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
   )
 }

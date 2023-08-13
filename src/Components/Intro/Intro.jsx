@@ -26,12 +26,26 @@ function Intro() {
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-                <span style={{color : darkMode ? 'white' : ''}}>Hey! I am</span>
+                <span style={{color : darkMode ? 'white' : ''}}>BIO</span>
                 <span>Getayawkal Tamrat</span>
-                <span style={{color : darkMode ? '#aaaaaa' : ''}}>Front-end web Developer
-                with a 10 month expriance with Html, CSS, JavaScript, React and
-                more.
-                </span>
+                <p style={{color : darkMode ? '#aaaaaa' : '', fontSize: '0.8rem'}}>Getayawkal Tamrat is a web developer at a private outsourcing company in Addis Ababa,
+Ethiopia. He is passionate about software development and cloud computing, and he is
+working towards becoming a full-stack web developer and professional AWS solution
+architect.
+Getayawkal has a strong foundation in computer science. He completed the ALX software
+engineering program, which taught him the fundamentals of software development, including
+object-oriented programming, data structures, and algorithms. He also completed the Udacity
+Cloud Computing with AWS Nanodegree, which gave him the skills to build and deploy
+applications on AWS.
+Getayawkal is a highly motivated and self-directed learner. He is always eager to learn new
+things and to improve his skills. He is also a team player and he is always willing to help
+others.
+In his spare time, Getayawkal enjoys playing games and spending time with his family and
+friends. He is also an avid reader and he enjoys learning about new technologies.
+Getayawkal is a valuable asset to his team and he is a rising star in the field of software
+development. He is confident that he will achieve his goals and become a successful
+full-stack web developer and AWS solution architect.
+                </p>
             </div>
             <Link
             spy={true}
