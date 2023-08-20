@@ -10,7 +10,8 @@ import Recipe from "../../img/recipe.png";
 import Travel from "../../img/space_travler.png";
 import Budget from "../../img/budget_app.png";
 import Crypto from "../../img/cripto_app.png";
-import Career from "../../img/career.png"
+import Career from "../../img/career.png";
+import DoctApp from "../../img/docapp.png";
 import 'swiper/css'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -32,6 +33,12 @@ const Portfolio = () => {
         grabCursor={true}
         className='portfolio-slider'
         >
+            <SwiperSlide>
+                <a href='https://github.com/getssh/Doctors_appointment' target='_blank'>
+                    <img src={DoctApp} alt="" />
+                </a>
+                <h3 className='port-discription' style={dark}>Doctor Appointment Booking</h3>
+            </SwiperSlide>
             <SwiperSlide>
                 <a href='https://docs.google.com/presentation/d/1Xt73vp2gMEgImQvX-7eD_yfUApHdhMEJHIwmxxanD28/edit?usp=sharing' target='_blank'>
                     <img src={Career} alt="" />
@@ -104,9 +111,9 @@ const Portfolio = () => {
             <div className="i-name">
                 <span style={{color : darkMode ? 'white' : ''}}></span>
                 <span>Elevator pitch</span>
-                <p style={{color : darkMode ? '#aaaaaa' : '', fontSize: '0.8rem'}}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nam enim maxime esse repudiandae doloribus at nihil architecto asperiores dolorum harum nisi accusamus saepe quas, expedita illo atque debitis corporis facilis sequi corrupti laudantium? Repellendus neque eligendi harum ullam, beatae quia molestiae inventore sint aut dolorum, vero distinctio quos amet animi cumque veritatis delectus laborum consequatur excepturi officia, obcaecati modi exercitationem nam. Eveniet quisquam nemo voluptates accusantium necessitatibus eius accusamus quos, vero, facere quibusdam saepe, minus hic asperiores assumenda. Ipsum tempore officia, facere reiciendis dolore mollitia voluptate quaerat at officiis, iure laboriosam voluptatem non ipsa. Aperiam quos quod non ratione aspernatur recusandae nihil debitis laboriosam. In molestias optio minus.
-                </p>
+                <a href="https://www.loom.com/share/d8cf8c909a4046cda22d792f0392b547?sid=3a08c403-bab6-4e21-85d1-dc11371110b0" target="_blank" style={{color : darkMode ? '#aaaaaa' : '', fontSize: '1rem', padding: '2rem'}}>
+                    Elivator Pitch Video
+                </a>
             </div>
         </div>
         <br />

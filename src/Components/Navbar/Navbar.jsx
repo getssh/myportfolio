@@ -46,12 +46,12 @@ const Navbar = () => {
                     smooth={true}>
                         <li>Elevator pitch</li>
                     </Link>
-                    {/* <Link
+                    <Link
                     spy={true}
                     to='Testimonials'
                     smooth={true}>
                         <li>Testimonials</li>
-                    </Link> */}
+                    </Link>
                 </ul>
             </div>
             <Link
